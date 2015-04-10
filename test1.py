@@ -21,7 +21,7 @@ class Stack:
             # print('           ',self.first)
             return self.items[self.first] == None
 
-    def add_element(self, item):
+    def __add_element(self, item):
         self.items[self.latest] = item
         self.number_of_elements += 1
         self.latest += 1
